@@ -1,6 +1,13 @@
 h1 {
   color: red;
+<<<<<<< HEAD
   background-color: black;
+=======
+}
+
+h1:replace {
+  content: "Test: ";
+>>>>>>> f4008b10e102ef6aa15b3aebba60fe3f04a45942
 }
 
 /*# sourceMappingURL=styles.css.map */
