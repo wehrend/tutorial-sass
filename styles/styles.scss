@@ -1,0 +1,55 @@
+@use "sass:color";
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+$primary: orange;
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.product {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+
+  &__image {
+    background-color: color.adjust($primary, $lightness: 20%);
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__info {
+    padding: 1rem;
+  }
+
+  &__name {
+    margin: 0.5rem 0 0 0;
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+
+  &__description {
+    margin: 0.2rem 0 0 0;
+    color: #575757;
+  }
+
+  &__price_list {
+    margin-top: 2rem;
+  }
+
+  &__price {
+    font-weight: 500;
+    font-size: 1.2rem;
+
+    &--old {
+      margin-left: 0.2rem;
+      font-size: 1rem;
+      text-decoration: line-through;
+      color: red;
+    }
+  }
+}
