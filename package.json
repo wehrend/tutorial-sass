@@ -4,16 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile-sass": "sass --watch styles.scss styles.css"
+    "compile-sass": "sass --watch styles:output"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-<<<<<<< HEAD
-  "devDependencies": {
-=======
   "dependencies": {
->>>>>>> f4008b10e102ef6aa15b3aebba60fe3f04a45942
     "sass": "^1.99.0"
   }
 }
